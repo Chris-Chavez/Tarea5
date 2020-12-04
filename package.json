@@ -12,16 +12,12 @@
     "bootstrap-vue": "^2.20.1",
     "vue": "^2.6.12",
     "vue-router": "^3.2.0",
-    "vuetify": "^2.3.19",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "deepmerge": "^4.2.2",
-    "sass": "^1.29.0",
-    "sass-loader": "^10.1.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
