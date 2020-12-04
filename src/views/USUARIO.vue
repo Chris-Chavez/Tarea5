@@ -7,7 +7,7 @@
     style="max-width: 20rem;"
     class="mb-2"
   >
-    <b-card-text >
+    <b-card-text>
         <span style="font-size: 130%;">{{Nombre.first+" "+Nombre.last}}</span><br>
         <span style="font-size: 110%;">{{"Género: "+item.gender}}</span><br>
         <span>{{"Correo: "+item.email}}</span><br>
@@ -31,6 +31,8 @@ import data from "../services/api.js";
         Nombre: {},
         src: "",
       }
+    },created(){
+     this.ConsultaPersona();
     },
     methods:{
       async ConsultaPersona(){
